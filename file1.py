@@ -1,5 +1,6 @@
 from random import randint as rd
 
+# 関数
 def roll_dice(n):
     prev = None
     count = 0
@@ -13,6 +14,7 @@ def roll_dice(n):
         if count == n:
             return dice
 
+# 実行
 if __name__ == "__main__":
     result = roll_dice(5)
     print(result)
