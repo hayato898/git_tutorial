@@ -17,5 +17,5 @@ def roll_dice(n):
             return dice
 
 if __name__ == "__main__":
-    result = roll_dice(4)
+    result = roll_dice(5)
     print(result)
