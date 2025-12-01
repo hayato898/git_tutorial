@@ -1,7 +1,5 @@
 from random import randint as rd
 
-import random
-
 def roll_dice(n):
     prev = None
     count = 0
