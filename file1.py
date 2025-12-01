@@ -11,7 +11,7 @@ def roll_dice(n):
             count += 1
         else:
             prev = dice
-            count = 1  # 新しい目が出たのでカウントリセット
+            count = 1  
 
         if count == n:
             return dice
