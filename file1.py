@@ -1,3 +1,4 @@
+#filename: file.py
 from random import randint as rd
 
 # 関数
